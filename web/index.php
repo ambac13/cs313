@@ -8,6 +8,6 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        <div>Hello PHP</div>
+        <div><?php echo 'Hello, PHP World'; ?></div>
     </body>
 </html>
