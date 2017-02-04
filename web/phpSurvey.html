@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHP Survey</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1> PHP Survey </h1>  
+  </header>
+	<nav>
+        <ul> 
+           <li><a href = "index.html">Homepage</a><li>    
+           <li><a href = "about.html">About</a></li> 
+           <li><a href = "assignments.html">Assignments</a></li> 
+          </ul>
+        </nav>
+        </br>
+        <div class="plane">
+	<main class="sit-content container" id="Content" role="main">
+				<div class="center">
+				<h2>Would You Rather...</h2>
+					<form action="surveyForm.php" method="POST" >
+						<label>Name:</label> <input type="text" maxlength="25" size="20" name="name" required> <br/><br/>
+						 <br/><hr/>
+							<input type="radio" name="feeling" value="Be unable to experience sadness" required> Be unable to experience sadness <br/>
+							<p>or</p> 
+							<input type="radio" name="feeling" value="Be unable to experience anger" required> Be unable to experience anger <br/><hr/>
+
+							<input type="radio" name="invi" value="Be invincible" required> Be invincible <br/>
+						    <p>or</p> 
+							<input type="radio" name="invi" value="Be invisible" required> Be invisible <br/><hr/>
+
+							<input type="radio" name="huge&weak" value="Have huge arms and weak legs" required> Have huge arms and weak legs <br/>
+							<p>or</p> 
+							<input type="radio" name="huge&weak" value="Have huge legs and weak arms" required> Have huge legs and weak arms <br/><hr/>
+
+							<input type="radio" name="time" value="Jump forward 10 years of your life" required> Jump forward 10 years of your life <br/>
+							<p>or</p> 
+							<input type="radio" name="time" value="Go back 10 years of your life " required> Go back 10 years of your life <br/><hr/>
+
+							<input type="radio" name="blood&brain" value="Have you blood sucked by a vampire" required> Have you blood sucked by a vampire <br/>
+							<p>or</p> 
+							<input type="radio" name="blood&brain" value="Have your brain eaten by a zombie" required> Have your brain eaten by a zombie<br/><hr/>
+
+							<input type="radio" name="genius" value="Be a genius in a world of unintelligent people" required> Be a genius in a world of unintelligent people <br/>
+							<p>or</p> 
+							<input type="radio" name="genius" value="Be unintelligent in a world of geniuses" required> Be unintelligent in a world of geniuses <br/><hr/>
+
+							<input type="radio" name="book&film" value="Read the book " required> Read the book <br/>
+							<p>or</p> 
+							<input type="radio" name="book&film" value="See the film" required> See the film <br/><hr/>
+
+							<input type="radio" name="scary" value="Stay overnight in a haunted asylum" required> Stay overnight in a haunted asylum <br/>
+							<p>or</p> 
+							<input type="radio" name="scary" value="Go on a scary (but broken) roller coaster" required> Go on a scary (but broken) roller coaster <br/><hr/>
+
+							<input type="radio" name="language" value="Only speak English and understand every language" required> Only speak English and understand every language <br/>
+							<p>or</p> 
+							<input type="radio" name="language" value="Speak every language but only understand English" required> Speak every language but only understand English <br/><hr/>
+
+							<input type="radio" name="breakfast" value="Eat waffels" required> Eat waffels <br/>
+							<p>or</p> 
+							<input type="radio" name="breakfast" value="Eat pancakes" required> Eat pancakes <br/><hr/><br/>
+
+
+						<label>Comments</label> <br/>
+						<textarea rows="4" cols="50" placeholder="Place Comments Here..." name="comments"></textarea>
+						<br/>
+						<button type="submit">Submit</button><br/><br/>
+						<a href = "surveyForm.php">Results</a> 
+					</form>
+					<br/>
+					</div>		
+				</div>
+	</main>
+</body>
+</html>
